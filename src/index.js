@@ -5,6 +5,7 @@ import './index.css';
 import Calculator from './Calculator';
 import Layout from './Layout';
 import Home from './Home'
+import About from './About';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
       <Routes>
       <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-         
+          <Route path="about" element={<About />} />
           <Route path="calculator" element={<Calculator />} />  
         </Route>
       </Routes>

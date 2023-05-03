@@ -1,0 +1,31 @@
+ul.navbar li /* Important part */
+{
+    display:inline;
+    margin: 40px;
+    
+}
+
+ul.navbar /* Extra part, to style spaces between each item */
+{
+    margin-left: 900px;
+    min-width: 696px;
+	padding-top: 20px;
+
+}
+body {
+    background-color: skyblue;
+}
+.title{
+  margin-left: 300px  ;
+}
+#calc{
+    margin-left: 300px;
+}
+#inp{
+    height: 35px;
+    margin: 20px;
+}
+p{
+    margin-left: 300px;
+    margin-right: 300px;
+}

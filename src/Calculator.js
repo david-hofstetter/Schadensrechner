@@ -12,21 +12,22 @@ export default function Calculator() {
     };
   
     return (
-      <div>
+      
+      <div id="calc">
+        
         <h1>Schadensrechner</h1>
-        <label>
-          Grundschaden:
-          <input
+        <label for = "Grundschaden">Grundschaden: </label>
+          <input id ="inp"
           placeholder="in CHF"
             type="number"
             value={baseDamage}
             onChange={(e) => setBaseDamage(parseInt(e.target.value))}
           />
-        </label>
+       
         <br />
         <label>
-          Schadensmodifikator:
-          <input
+          Multiplikatoren:
+          <input id = "inp"
             placeholder="in %"
             type="number"
             step="5"
