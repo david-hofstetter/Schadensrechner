@@ -10,13 +10,13 @@ const Layout = () => {
       <nav>
         <ul class="navbar">
           <li>
-            <Link to="/">Home</Link>
+            <Link class="linkname" to="/">Home</Link>
           </li>
           <li>
-            <Link to="/calculator">Schadensrechner</Link>
+            <Link class="linkname" to="/calculator">Schadensrechner</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link class="linkname" to="/about">About</Link>
           </li>
         
         </ul>

@@ -35,6 +35,7 @@ export default function Calculator() {
             onChange={(e) => setDamageModifier(parseFloat(e.target.value))}
           />
         </label>
+        
         <br />
         <button onClick={calculateDamage}>Berechnen</button>
         <br />

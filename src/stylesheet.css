@@ -1,22 +1,42 @@
 ul.navbar li /* Important part */
 {
     display:inline;
-    margin: 40px;
+    margin: 100px;
+    text-align: center;
+    backdrop-filter: blur(8px);
     
+
+
 }
 
 ul.navbar /* Extra part, to style spaces between each item */
 {
-    margin-left: 900px;
+    
     min-width: 696px;
 	padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    backdrop-filter: blur(8px);
+
 
 }
 body {
-    background-color: skyblue;
+    background-image: url("./pictures/money.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(8px);
+    height: 720px;
+    
+    
+}
+.blur {
+    -webkit-filter: blur(6px);
+    filter: blur(0px);
 }
 .title{
   margin-left: 300px  ;
+  backdrop-filter: blur(8px);
 }
 #calc{
     margin-left: 300px;
@@ -28,4 +48,19 @@ body {
 p{
     margin-left: 300px;
     margin-right: 300px;
+}
+.linkname{
+    text-decoration: none;
+    font-size: large;
+    color: 	#000000
+    ;
+}
+h2{
+    margin-left: 300px;
+}
+.nowhome{
+    margin-left: 300px;
+    border-color:aliceblue;
+    color: #000000;
+    font-size: large;
 }
