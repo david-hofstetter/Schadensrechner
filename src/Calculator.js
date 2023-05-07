@@ -37,7 +37,7 @@ export default function Calculator() {
         </label>
         
         <br />
-        <button onClick={calculateDamage}>Berechnen</button>
+        <button id="calcButton" onClick={calculateDamage}>Berechnen</button>
         <br />
         <label>Schadensersatzbetrag: {totalDamage}</label>
       </div>

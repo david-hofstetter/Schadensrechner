@@ -13,7 +13,7 @@ const Home = () => {
 
     <p>Genauigkeit garantiert - unser Schadensrechner verwendet die neueste Technologie, um präzise Ergebnisse zu liefern. Einfach zu bedienen - keine technischen Kenntnisse erforderlich.</p>
     <br></br>
-    <a href="/about" class="nowhome">Haben Sie Fragen? Kontaktieren Sie uns. Wir helfen Ihnen gerne weiter!</a>
+    <a href="/about" class="nowhome">Möchten sie noch mehr über uns wissen?</a>
     </div>
     </>
     
