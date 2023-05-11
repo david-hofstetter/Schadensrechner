@@ -3,7 +3,7 @@
 
 ## Vorwort
 
-Mir wurde die Aufgabe gestellt eine Website mit einem Schadensrechner zu erstellen, das Ganze mithilfe von react. Der Auftrag kam von der BBW und diese erhielte den Auftrag von der KBW.
+Am 16.03.2023 wurde mir die Aufgabe gestellt eine Website mit einem Schadensrechner zu erstellen, das Ganze mithilfe von react. Der Auftrag kam von der BBW und diese erhielte den Auftrag von der KBW, die Abgabe dieses Projekt ist am 12.05.2023.
 
 
 ## Planung
