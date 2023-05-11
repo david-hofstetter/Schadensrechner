@@ -3,6 +3,7 @@ const About = () => {
 
   return <>
   <h1 class="title">About</h1>
+  <br></br>
 <p>Willkommen bei uns! Dies ist eine Website, welche sich auf Schadensersatzbetrag berechnen spezialisiert hat und stolz darauf ist, unseren Kunden qualitativ hochwertige Lösungen zu bieten.
   </p>  </>
 };
