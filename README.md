@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Schadensrechner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Vorwort
 
-In the project directory, you can run:
+Mir wurde die Aufgabe gestellt eine Website mit einem Schadensrechner zu erstellen, das Ganze mithilfe von react. Der Auftrag kam von der BBW und diese erhielte den Auftrag von der KBW.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Planung
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Für die Planung hab ich Trello benutzt mit dieser Applikation konnte ich immer sehen was ich noch zu tun habe, an was ich gerade arbeite und was ich schon alles gemacht habe.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+Das Projekt verfügt über drei Seiten, die ich mithilfe von Routing verlinkt habe. Eine "Home", eine "About" und die "Schadensrechner" Seite. Auf der Schadensrechner Seite kann man eingeben wie viel Wert der entstandene Schaden hat und zu wie viel % man bei seiner Versicherung versichert ist. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Github
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [@david-hofstetter](https://github.com/david-hofstetter) 📖
+* [@david-hofstetter](https://github.com/david-hofstetter) 📖
+* [@david-hofstetter](https://github.com/david-hofstetter) 📖
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dockerfile 
 
-## Learn More
+Ein anderes Ziel unseres Projekt war es die Website über ein Dockerfile starten zu können, hier ist meins.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+FROM node:latest
 
-### Code Splitting
+WORKDIR /app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+RUN git clone https://github.com/david-hofstetter/Schadensrechner.git .
 
-### Analyzing the Bundle Size
+RUN npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+EXPOSE 3000
 
-### Making a Progressive Web App
+ENTRYPOINT ["npm", "start"]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Kontakt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Falls sie Fragen haben können sie mich unter dieser E-Mail erreichen: <david.hofstetter@lernende.bbw.ch>.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
