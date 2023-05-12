@@ -30,13 +30,13 @@ Das Projekt verfügt über drei Seiten, die ich mithilfe von Routing verlinkt ha
 Ein anderes Ziel unseres Projekt war es die Website über ein Dockerfile starten zu können, hier ist meins.
 
 
-FROM node:latest
+FROM node:18.12.1-bullseye-slim
 
-WORKDIR /app/
+WORKDIR /app
 
-RUN git clone https://github.com/david-hofstetter/Schadensrechner.git .
+COPY . .
 
-RUN npm install
+RUN npm ci
 
 EXPOSE 3000
 
