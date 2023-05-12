@@ -8,12 +8,12 @@ Am 16.03.2023 wurde mir die Aufgabe gestellt eine Website mit einem Schadensrech
 
 ## Planung
 
-Für die Planung hab ich Trello benutzt mit dieser Applikation konnte ich immer sehen was ich noch zu tun habe, an was ich gerade arbeite und was ich schon alles gemacht habe.
+Für die Planung hab ich Trello benutzt mit dieser Applikation konnte ich immer sehen was ich noch zu tun habe, an was ich gerade arbeite und was ich schon alles gemacht habe. Als Vorgehensmethode habe ich mich für IPERKA entschieden, da ich diese Methode schon ziemlich gut kenne
 
 
 ## Features
 
-Das Projekt verfügt über drei Seiten, die ich mithilfe von Routing verlinkt habe. Eine "Home", eine "About" und die "Schadensrechner" Seite. Auf der Schadensrechner Seite kann man eingeben wie viel Wert der entstandene Schaden hat und zu wie viel % man bei seiner Versicherung versichert ist. 
+Das Projekt verfügt über drei Seiten, die ich mithilfe von Routing verlinkt habe. Eine "Home", eine "About" und die "Schadensrechner" Seite. Auf der Schadensrechner Seite kann man eingeben wie viel Wert der entstandene Schaden hat und zu wie viel % man bei seiner Versicherung versichert ist. Zudem hat die Website eine Navigation Bar mit dieser kann man von Seite zu Seite wechseln per Knopfdruck.
 
 
 
@@ -22,8 +22,7 @@ Das Projekt verfügt über drei Seiten, die ich mithilfe von Routing verlinkt ha
 
 
 * [@david-hofstetter](https://github.com/david-hofstetter) 📖
-* [@david-hofstetter](https://github.com/david-hofstetter) 📖
-* [@david-hofstetter](https://github.com/david-hofstetter) 📖
+
 
 
 ## Dockerfile 
