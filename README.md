@@ -8,7 +8,7 @@ Am 16.03.2023 wurde mir die Aufgabe gestellt eine Website mit einem Schadensrech
 
 ## Planung
 
-Für die Planung hab ich Trello benutzt mit dieser Applikation konnte ich immer sehen was ich noch zu tun habe, an was ich gerade arbeite und was ich schon alles gemacht habe.
+Für die Planung hab ich Trello benutzt mit dieser Applikation konnte ich immer sehen was ich noch zu tun habe, an was ich gerade arbeite und was ich schon alles gemacht habe. Als Vorgehensmethode habe ich mich für IPERKA entschieden, da ich diese Methode schon ziemlich gut kenne
 
 
 ## Features
